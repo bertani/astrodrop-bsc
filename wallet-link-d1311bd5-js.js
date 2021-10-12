@@ -39,7 +39,7 @@ function walletLink(options) {
               case 0:
                 getBalance = helpers.getBalance, getAddress = helpers.getAddress, getNetwork = helpers.getNetwork;
                 _context.next = 3;
-                return __webpack_require__.e(/*! import() | walletlink */ "walletlink").then(__webpack_require__.t.bind(null, /*! walletlink */ "t5Mr", 7));
+                return Promise.all(/*! import() | walletlink */[__webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider~walletlink"), __webpack_require__.e("walletlink")]).then(__webpack_require__.t.bind(null, /*! walletlink */ "Py8h", 7));
 
               case 3:
                 _yield$import = _context.sent;

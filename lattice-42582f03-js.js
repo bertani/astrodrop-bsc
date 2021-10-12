@@ -450,18 +450,18 @@ function _latticeProvider() {
             };
 
             _context11.next = 20;
-            return __webpack_require__.e(/*! import() | eth-lattice-keyring */ "eth-lattice-keyring").then(__webpack_require__.t.bind(null, /*! eth-lattice-keyring */ "zgR6", 7));
+            return __webpack_require__.e(/*! import() | eth-lattice-keyring */ "eth-lattice-keyring").then(__webpack_require__.t.bind(null, /*! eth-lattice-keyring */ "aFzb", 7));
 
           case 20:
             _yield$import = _context11.sent;
             EthLatticeKeyring = _yield$import["default"];
             _context11.next = 24;
-            return __webpack_require__.e(/*! import() | ethereumjs-tx */ "default~ethereumjs-tx~shapeshiftoss-hdwallet-keepkey-webusb~walletconnect-web3-provider").then(__webpack_require__.t.bind(null, /*! ethereumjs-tx */ "/JTR", 7));
+            return Promise.all(/*! import() | ethereumjs-tx */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("ethereumjs-tx")]).then(__webpack_require__.t.bind(null, /*! ethereumjs-tx */ "jSND", 7));
 
           case 24:
             EthereumTx = _context11.sent;
             _context11.next = 27;
-            return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
+            return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~shapeshiftoss-hdwallet-keepkey-webusb~wall~b11e4352"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider~walletlink"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
 
           case 27:
             _yield$import2 = _context11.sent;

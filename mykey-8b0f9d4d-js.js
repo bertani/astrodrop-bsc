@@ -46,7 +46,7 @@ function mykey(options) {
                 }
 
                 _context2.next = 6;
-                return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
+                return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~shapeshiftoss-hdwallet-keepkey-webusb~wall~b11e4352"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider~walletlink"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
 
               case 6:
                 createProvider = _context2.sent["default"];

@@ -61,7 +61,7 @@ function authereum(options) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 _context2.next = 2;
-                return __webpack_require__.e(/*! import() | authereum */ "authereum").then(__webpack_require__.t.bind(null, /*! authereum */ "7N6F", 7));
+                return Promise.all(/*! import() | authereum */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~shapeshiftoss-hdwallet-keepkey-webusb~wall~b11e4352"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider~walletlink"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~walletconnect-web3-provider"), __webpack_require__.e("authereum")]).then(__webpack_require__.t.bind(null, /*! authereum */ "/jwL", 7));
 
               case 2:
                 _yield$import = _context2.sent;

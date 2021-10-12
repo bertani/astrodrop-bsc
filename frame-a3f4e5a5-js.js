@@ -47,7 +47,7 @@ function _getProvider() {
 
           case 3:
             _context2.next = 5;
-            return __webpack_require__.e(/*! import() | eth-provider */ "eth-provider").then(__webpack_require__.t.bind(null, /*! eth-provider */ "e4qi", 7));
+            return Promise.all(/*! import() | eth-provider */[__webpack_require__.e("default~eth-provider~keystone-1c0f8bf6-js"), __webpack_require__.e("eth-provider")]).then(__webpack_require__.t.bind(null, /*! eth-provider */ "gfgD", 7));
 
           case 5:
             _yield$import = _context2.sent;

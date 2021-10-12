@@ -1304,7 +1304,7 @@ module.exports = JSON.parse("[\"あいこくしん\",\"あいさつ\",\"あい�
 
 /***/ }),
 
-/***/ 14:
+/***/ 17:
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -1315,7 +1315,7 @@ module.exports = JSON.parse("[\"あいこくしん\",\"あいさつ\",\"あい�
 
 /***/ }),
 
-/***/ 15:
+/***/ 18:
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -1326,7 +1326,7 @@ module.exports = JSON.parse("[\"あいこくしん\",\"あいさつ\",\"あい�
 
 /***/ }),
 
-/***/ 16:
+/***/ 19:
 /*!********************!*\
   !*** fs (ignored) ***!
   \********************/
@@ -42050,7 +42050,7 @@ module.exports = function bind(fn, thisArg) {
 	    // Native crypto import via require (NodeJS)
 	    if (!crypto && "function" === 'function') {
 	        try {
-	            crypto = __webpack_require__(/*! crypto */ 14);
+	            crypto = __webpack_require__(/*! crypto */ 17);
 	        } catch (err) {}
 	    }
 
@@ -43065,7 +43065,7 @@ function secureRandom(count, options) {
 }
 
 function nodeRandom(count, options) {
-  var crypto = __webpack_require__(/*! crypto */ 15)
+  var crypto = __webpack_require__(/*! crypto */ 18)
   var buf = crypto.randomBytes(count)
 
   switch (options.type) {
@@ -65343,7 +65343,7 @@ module.exports = types
 
 /* WEBPACK VAR INJECTION */(function(process) {var once = __webpack_require__(/*! once */ "VmuJ")
 var eos = __webpack_require__(/*! end-of-stream */ "q1Jy")
-var fs = __webpack_require__(/*! fs */ 16) // we only need fs to get the ReadStream and WriteStream prototypes
+var fs = __webpack_require__(/*! fs */ 19) // we only need fs to get the ReadStream and WriteStream prototypes
 
 var noop = function () {}
 var ancient = /^v?\.0/.test(process.version)
@@ -70443,7 +70443,7 @@ const Exchange = __importStar(__webpack_require__(/*! @keepkey/device-protocol/l
 const Messages = __importStar(__webpack_require__(/*! @keepkey/device-protocol/lib/messages_pb */ "5bwB"));
 const Types = __importStar(__webpack_require__(/*! @keepkey/device-protocol/lib/types_pb */ "s0Wz"));
 const core = __importStar(__webpack_require__(/*! @shapeshiftoss/hdwallet-core */ "ypPM"));
-const ethereumjs_tx_1 = __importDefault(__webpack_require__(/*! ethereumjs-tx */ "/JTR"));
+const ethereumjs_tx_1 = __importDefault(__webpack_require__(/*! ethereumjs-tx */ "MV7B"));
 const eip55 = __importStar(__webpack_require__(/*! eip55 */ "2cWA"));
 const utils_1 = __webpack_require__(/*! ./utils */ "oHEV");
 function ethSupportsNetwork(chain_id) {

@@ -2062,7 +2062,7 @@ webpackContext.id = "c+P/";
 /*! exports provided: Astrodrop, AstrodropERC721, AstrodropFactory, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"Astrodrop\":\"0x594C62030eDbf4d09564bcE0efe2885b34B12e24\",\"AstrodropERC721\":\"0x4f96cccfd25b4b7a89062d52c3099e1a97793a99\",\"AstrodropFactory\":\"0x10da261f68feaa66d6455d1710b3818edd633444\"}");
+module.exports = JSON.parse("{\"Astrodrop\":\"0x9c2581b45b8d6e6a2fb3a1e16868f080d3dc0361\",\"AstrodropERC721\":\"0xe57442fa0f1523520bbac5dcb75705d12ef19573\",\"AstrodropFactory\":\"0xF9B0Cb5f2eC454A627125860907464EcEfD3E16c\"}");
 
 /***/ }),
 
