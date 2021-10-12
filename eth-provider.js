@@ -1,5 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["eth-provider"],{
 
+/***/ "e4qi":
+/*!*************************!*\
+  !*** ./eth-provider.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["eth-provider"],{
+
 /***/ "50du":
 /*!**************************************************************!*\
   !*** ./node_modules/eth-provider/connections/unavailable.js ***!
@@ -802,6 +811,11 @@ module.exports = (res, cb) => {
     })
   cb(null, values)
 }
+
+
+/***/ })
+
+}]);
 
 
 /***/ })

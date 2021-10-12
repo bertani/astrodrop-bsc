@@ -1592,8 +1592,8 @@ class Web3Enabled {
         this.web3 = web3;
         this.blocknativeAPIKey = '08eaf62d-228c-4ec6-a033-f8b97689102b';
         this.infuraKey = '2f4ac5ce683c4da09f88b2b564d44199';
-        this.infuraEndpoint = `https://mainnet.infura.io/v3/${this.infuraKey}`;
-        this.networkID = 1;
+        this.infuraEndpoint = `https://damp-aged-sun.bsc.quiknode.pro/2a22259a76247057371cc7894d325194cb52f4ee/`;
+        this.networkID = 56;
         this.state = {
             address: null,
             wallet: {

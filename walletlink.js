@@ -1,5 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["walletlink"],{
 
+/***/ "t5Mr":
+/*!***********************!*\
+  !*** ./walletlink.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["walletlink"],{
+
 /***/ "/1Jb":
 /*!************************************************************!*\
   !*** ./node_modules/walletlink/dist/components/Spinner.js ***!
@@ -3333,7 +3342,7 @@ exports.ScopedLocalStorage = ScopedLocalStorage;
     root = self;
   }
   var COMMON_JS = !root.JS_SHA256_NO_COMMON_JS && typeof module === 'object' && module.exports;
-  var AMD =  true && __webpack_require__(/*! !webpack amd options */ "QvbP");
+  var AMD =   true && __webpack_require__(/*! !webpack amd options */ "QvbP");
   var ARRAY_BUFFER = !root.JS_SHA256_NO_ARRAY_BUFFER && typeof ArrayBuffer !== 'undefined';
   var HEX_CHARS = '0123456789abcdef'.split('');
   var EXTRA = [-2147483648, 8388608, 32768, 128];
@@ -5358,6 +5367,11 @@ function ChildRequestEthereumAccountsResponse(result) {
     return { method: Web3Method_1.Web3Method.childRequestEthereumAccounts, result };
 }
 exports.ChildRequestEthereumAccountsResponse = ChildRequestEthereumAccountsResponse;
+
+
+/***/ })
+
+}]);
 
 
 /***/ })

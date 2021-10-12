@@ -1,5 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["eth-lattice-keyring"],{
 
+/***/ "zgR6":
+/*!********************************!*\
+  !*** ./eth-lattice-keyring.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["eth-lattice-keyring"],{
+
 /***/ "+FMq":
 /*!*********************************************!*\
   !*** ./node_modules/bitwise/esm/bits/or.js ***!
@@ -11734,6 +11743,11 @@ __webpack_require__.r(__webpack_exports__);
     xnor: _xnor__WEBPACK_IMPORTED_MODULE_15__["default"],
     xor: _xor__WEBPACK_IMPORTED_MODULE_16__["default"],
 });
+
+
+/***/ })
+
+}]);
 
 
 /***/ })

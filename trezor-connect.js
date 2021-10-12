@@ -1,5 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["trezor-connect"],{
 
+/***/ "rrOe":
+/*!***************************!*\
+  !*** ./trezor-connect.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["trezor-connect"],{
+
 /***/ "+bBA":
 /*!******************************************************!*\
   !*** ./node_modules/trezor-connect/lib/types/api.js ***!
@@ -4920,6 +4929,11 @@ module.exports = _setPrototypeOf;
 
 
 var _constants = __webpack_require__(/*! ../../constants */ "sVx8");
+
+/***/ })
+
+}]);
+
 
 /***/ })
 

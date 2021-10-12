@@ -49,7 +49,7 @@ function fortmatic(options) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 _context2.next = 2;
-                return __webpack_require__.e(/*! import() | fortmatic */ "fortmatic").then(__webpack_require__.t.bind(null, /*! fortmatic */ "n8m1", 7));
+                return __webpack_require__.e(/*! import() | fortmatic */ "fortmatic").then(__webpack_require__.t.bind(null, /*! fortmatic */ "ICsM", 7));
 
               case 2:
                 _yield$import = _context2.sent;

@@ -833,7 +833,7 @@ function _createKeepKeyProvider() {
 
             BigNumber = _ref3.BigNumber, rpcUrl = _ref3.rpcUrl, resetWalletState = _ref3.resetWalletState, networkId = _ref3.networkId;
             _context16.next = 24;
-            return Promise.all(/*! import() | shapeshiftoss-hdwallet-keepkey-webusb */[__webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~shapeshiftoss-hdwallet-keepkey-webusb~wall~b11e4352"), __webpack_require__.e("default~shapeshiftoss-hdwallet-core~shapeshiftoss-hdwallet-keepkey-webusb"), __webpack_require__.e("default~shapeshiftoss-hdwallet-keepkey-webusb~walletconnect-web3-provider"), __webpack_require__.e("common"), __webpack_require__.e("shapeshiftoss-hdwallet-keepkey-webusb")]).then(__webpack_require__.t.bind(null, /*! @shapeshiftoss/hdwallet-keepkey-webusb */ "V/Gv", 7));
+            return Promise.all(/*! import() | shapeshiftoss-hdwallet-keepkey-webusb */[__webpack_require__.e("default~ethereumjs-tx~shapeshiftoss-hdwallet-keepkey-webusb~walletconnect-web3-provider"), __webpack_require__.e("default~shapeshiftoss-hdwallet-core~shapeshiftoss-hdwallet-keepkey-webusb"), __webpack_require__.e("common"), __webpack_require__.e("shapeshiftoss-hdwallet-keepkey-webusb")]).then(__webpack_require__.t.bind(null, /*! @shapeshiftoss/hdwallet-keepkey-webusb */ "V/Gv", 7));
 
           case 24:
             _yield$import = _context16.sent;
@@ -848,7 +848,7 @@ function _createKeepKeyProvider() {
             bip32ToAddressNList = _yield$import2.bip32ToAddressNList;
             HDWalletErrorType = _yield$import2.HDWalletErrorType;
             _context16.next = 35;
-            return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~shapeshiftoss-hdwallet-keepkey-webusb~wall~b11e4352"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider~walletlink"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
+            return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
 
           case 35:
             _yield$import3 = _context16.sent;

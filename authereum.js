@@ -1,5 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["authereum"],{
 
+/***/ "7N6F":
+/*!**********************!*\
+  !*** ./authereum.js ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["authereum"],{
+
 /***/ "+1EL":
 /*!*****************************************************************!*\
   !*** ./node_modules/authereum/node_modules/penpal/lib/index.js ***!
@@ -5714,7 +5723,7 @@ exports.default = AuthereumSDK_1.default;
     var res = this.imod(a._invmp(this.m).mul(this.r2));
     return res._forceRed(this);
   };
-})( false || module, this);
+})(  false || module, this);
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../@angular-builders/custom-webpack/node_modules/webpack/buildin/module.js */ "0SIU")(module)))
 
@@ -7897,8 +7906,8 @@ module.exports = {
   // the browser, add `_` as a global object.
   // (`nodeType` is checked to ensure that `module`
   // and `exports` are not HTML elements.)
-  if ( true && !exports.nodeType) {
-    if ( true && !module.nodeType && module.exports) {
+  if (  true && !exports.nodeType) {
+    if (  true && !module.nodeType && module.exports) {
       exports = module.exports = _;
     }
     exports._ = _;
@@ -9187,7 +9196,7 @@ module.exports = {
   // Optimize `isFunction` if appropriate. Work around some typeof bugs in old v8,
   // IE 11 (#1621), Safari 8 (#1929), and PhantomJS (#2236).
   var nodelist = root.document && root.document.childNodes;
-  if ( true && typeof Int8Array != 'object' && typeof nodelist != 'function') {
+  if (  true && typeof Int8Array != 'object' && typeof nodelist != 'function') {
     _.isFunction = function(obj) {
       return typeof obj == 'function' || false;
     };
@@ -15612,6 +15621,11 @@ module.exports = {
   decode: decode,
   encode: encode
 }
+
+
+/***/ })
+
+}]);
 
 
 /***/ })

@@ -824,7 +824,7 @@ function _ledgerProvider() {
             };
 
             _context15.next = 28;
-            return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~shapeshiftoss-hdwallet-keepkey-webusb~wall~b11e4352"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider~walletlink"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
+            return Promise.all(/*! import() | providerEngine-771e7e5b-js */[__webpack_require__.e("default~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("providerEngine-771e7e5b-js")]).then(__webpack_require__.bind(null, /*! ./providerEngine-771e7e5b.js */ "468V"));
 
           case 28:
             _yield$import = _context15.sent;
@@ -843,7 +843,7 @@ function _ledgerProvider() {
             _yield$import3 = _context15.sent;
             Eth = _yield$import3["default"];
             _context15.next = 41;
-            return Promise.all(/*! import() | ethereumjs-tx */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("ethereumjs-tx")]).then(__webpack_require__.t.bind(null, /*! @ethereumjs/tx */ "ztCV", 7));
+            return __webpack_require__.e(/*! import() | ethereumjs-tx */ "default~ethereumjs-tx~shapeshiftoss-hdwallet-keepkey-webusb~walletconnect-web3-provider").then(__webpack_require__.t.bind(null, /*! @ethereumjs/tx */ "ztCV", 7));
 
           case 41:
             _yield$import4 = _context15.sent;
@@ -860,7 +860,7 @@ function _ledgerProvider() {
           case 49:
             ethUtil = _context15.sent;
             _context15.next = 52;
-            return Promise.all(/*! import() | eth-sig-util */[__webpack_require__.e("default~authereum~eth-sig-util~ethereumjs-tx~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~shapeshiftoss-hdwallet-keepkey-webusb~wall~b11e4352"), __webpack_require__.e("default~authereum~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider"), __webpack_require__.e("eth-sig-util")]).then(__webpack_require__.t.bind(null, /*! eth-sig-util */ "8Qrm", 7));
+            return __webpack_require__.e(/*! import() | eth-sig-util */ "default~eth-sig-util~providerEngine-771e7e5b-js~walletconnect-web3-provider").then(__webpack_require__.t.bind(null, /*! eth-sig-util */ "hZVQ", 7));
 
           case 52:
             _yield$import6 = _context15.sent;
